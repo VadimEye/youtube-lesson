@@ -1,3 +1,4 @@
-alert('Hello Samurai!!!');
 
+
+alert('Hello Samurai');
 export const a = 10;
