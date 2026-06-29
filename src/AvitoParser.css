@@ -1,0 +1,136 @@
+.avito-parser {
+  max-width: 720px;
+  margin: 0 auto 48px;
+  padding: 24px;
+  text-align: left;
+}
+
+.avito-parser h2 {
+  margin: 0 0 8px;
+  font-size: 1.5rem;
+}
+
+.avito-parser__hint {
+  font-size: 0.85rem;
+  color: var(--text-2, #666);
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.avito-parser__hint code {
+  font-size: 0.8rem;
+  word-break: break-all;
+}
+
+.avito-form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 20px;
+}
+
+.avito-form__row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.avito-form label {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex: 1;
+  min-width: 120px;
+  font-size: 0.85rem;
+}
+
+.avito-form input,
+.avito-form select {
+  padding: 8px 10px;
+  border: 1px solid var(--border, #ccc);
+  border-radius: 6px;
+  font-size: 1rem;
+  background: var(--bg, #fff);
+  color: inherit;
+}
+
+.avito-form__submit {
+  align-self: flex-start;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: none;
+  background: var(--accent, #646cff);
+  color: #fff;
+  cursor: pointer;
+}
+
+.avito-form__submit:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
+
+.avito-error {
+  color: #c0392b;
+  margin-bottom: 12px;
+}
+
+.avito-status {
+  color: var(--text-2, #666);
+  margin-bottom: 16px;
+}
+
+.avito-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.avito-card {
+  display: flex;
+  gap: 12px;
+  padding: 12px;
+  border: 1px solid var(--border, #e0e0e0);
+  border-radius: 8px;
+  background: var(--card-bg, #fafafa);
+}
+
+.avito-card__img {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border-radius: 6px;
+  flex-shrink: 0;
+}
+
+.avito-card__body {
+  flex: 1;
+  min-width: 0;
+}
+
+.avito-card__title {
+  font-weight: 600;
+  color: inherit;
+  text-decoration: none;
+  display: block;
+  margin-bottom: 4px;
+}
+
+.avito-card__title:hover {
+  text-decoration: underline;
+}
+
+.avito-card__price {
+  font-weight: 700;
+  margin: 0 0 4px;
+  color: var(--accent, #646cff);
+}
+
+.avito-card__meta {
+  margin: 0;
+  font-size: 0.85rem;
+  color: var(--text-2, #888);
+}
